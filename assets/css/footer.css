@@ -1,5 +1,6 @@
 .rs-footer.style1 {
-    background: #121212;
+    /* background: #121212; */
+    background-color:#0a1e34;
     background-size: cover;
   }
   .rs-footer.style1 .footer-top {
@@ -151,7 +152,7 @@
   }
   .rs-footer.style1 .footer-bottom {
     padding: 20px 0;
-    background: #000;
+    /* background: #000; */
   }
   .rs-footer.style1 .footer-bottom .copyright p {
     margin: 0;

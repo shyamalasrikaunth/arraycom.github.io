@@ -79,7 +79,8 @@ body {
 /*end preloader css*/
 
 .top-bar {
-  background-color: #020913;
+  /* background-color: #020913; */
+  background-color:#0a1e34;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -180,7 +181,7 @@ body {
   border-radius: 10px;
   padding-top: 120px;
 
-  background: url("../images/backup/Rectagle_2.png");
+  background: url("../images/pages/contact.png");
   background-repeat: no-repeat;
  background-size:cover;
   color: white !important;

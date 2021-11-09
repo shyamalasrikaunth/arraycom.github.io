@@ -79,7 +79,8 @@ body {
 /*end preloader css*/
 
 .top-bar {
-  background-color: #020913;
+  /* background-color: #020913; */
+  background-color:#0a1e34;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -147,7 +148,8 @@ body {
   color: #bb0b0b;
 }
 .bg-menucolor {
-  background-color: #020913;
+  /* background-color: #020913; */
+  background-color:#0a1e34;
   color: white;
 }
 .navbar.bg-menucolor ul.navbar-nav li > a {
@@ -180,11 +182,12 @@ body {
   border-radius: 10px;
   padding-top: 100px;
 
-  background: url("../images/backup/Rectagle_2.png");
+  background: url("../images/pages/about.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size:cover;
   color: white !important;
-  height: 50vh;
+  height: 60vh;
 }
 
 .about h2:after {

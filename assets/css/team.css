@@ -93,9 +93,9 @@ padding:40px 0px;
 }
 .team-page p
 {
-    font-size:20px;
-    font-weight:600;
-    line-height:3 rem;
+    font-size:16px;
+    font-weight:800;
+    line-height:2.2em;
 }
 .teamdet
 {
@@ -103,11 +103,12 @@ padding:40px 0px;
     padding:20px;
 
 }
- 
-.vs
-{
-    padding:15px;
+.teamdet p{
+    align-items: stretch;
 }
+ 
+ 
+ 
 .side-one .card .image {
     width:100px; height:100px;
     margin:0 auto;
