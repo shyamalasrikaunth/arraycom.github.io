@@ -13,7 +13,7 @@ padding:40px 0px;
 }
 .card
 {
-    border:none;
+    
     background:white;
 
 }
@@ -33,12 +33,12 @@ padding:40px 0px;
       border-radius:5px;
 
   }
-  .team-single:hover .side-one
+  /* .team-single:hover .side-one
   {
       transform:rotateY(180deg);
      
       
-  }
+  } */
   .content-area
   {
       transform:perspective(1000px);
@@ -79,6 +79,61 @@ padding:40px 0px;
   {
     color:white;
     background-color:#bd0b0c !important;
+  }
+
+.team-page
+{
+    margin-top:50px;
+    padding:20px;
+}
+.team-page .desc
+{
+    margin-top:50px;
+    padding:20px;
+}
+.team-page p
+{
+    font-size:20px;
+    font-weight:600;
+    line-height:3 rem;
+}
+.teamdet
+{
+    margin:20px;
+    padding:20px;
+
+}
+ 
+.vs
+{
+    padding:15px;
+}
+.side-one .card .image {
+    width:100px; height:100px;
+    margin:0 auto;
+    border-radius:50%;
+    overflow:hidden;
+    border: 4px solid white;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    
+  }
+  
+  .side-one .card {
+    /* box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2); */
+    box-shadow: 0px 0px 4px 8px rgba(0, 0, 0, 0.2);/*any color you want*/
+    /* transition: 0.3s; */
+    transition: all .4s ease-out 0s;
+    background-color: #ffffff;
+  }
+  .side-one a
+  {
+      text-decoration: none;
+      color:black;
+  }
+  .card:hover {
+    background-color: #cccccc;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    color:#bd0b0c;
   }
  .owl-dot span
  {

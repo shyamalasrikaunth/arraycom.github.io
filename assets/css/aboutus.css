@@ -219,29 +219,45 @@ body {
   font-weight: bold;
 }
 
-.Services {
-  /* padding-bottom:20px;
-      */
-}
-
+ 
 .owlslider {
   max-width: 1200px;
 
   display: flex;
 
   align-items: center;
-  padding: 40px;
+  padding: 20px;
 }
 
 .owlslider .card {
   background: white;
   flex: 1;
   margin: 0 10px;
+  
+    
+}
+.carousel-shadow {
+  margin: 10px;
+  box-shadow: 0px 15px 10px -15px #111; 
+}
+.owl-stage {
+  display: flex !important;
+}
+.owl-item {
+  display: flex !important;
+  flex: 1 0 auto !important;
+  box-shadow: 0px 15px 10px -15px #111; 
 }
 
+
+.owl-carousel .owl-item img {
+  width: auto;
+  height: 100%;
+}
+ 
 .owlslider .card .img {
   height: 200px;
-  width: 100%;
+  object-fit: cover;
 }
 
 .owlslider .card .img img {
@@ -252,6 +268,8 @@ body {
 
 .owlslider .card .content {
   padding: 10px 20px;
+  align-items:center;
+  border:5px solid #D3D3D3;
 }
 
 .owlslider .card .title {
