@@ -1,0 +1,160 @@
+.jumbotron {
+  padding-top: 120px;
+
+  background: url("../images/pages/jumbo1.jpg");
+  background-repeat: no-repeat;
+
+  color: white !important;
+  background-size: 1375px 350px;
+  height: 60vh;
+  filter: grayscale(50%);
+}
+.jumbotron h4 {
+  background: rgba(0, 0, 0, 0.5);
+}
+/* .card
+{
+    position:relative;
+    height:350px;
+    display:block;
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.15);
+    transition:0.4s linear;
+} */
+/* .card  
+{
+    box-shadow: 0px 1px 30px 0px rgba(0,0,0,0.4);
+} */
+.card .image {
+  background: black;
+  height: 250px;
+
+  overflow: hidden;
+}
+.image img {
+  height: 100%;
+  width: 100%;
+  transition: 0.3s;
+}
+.card .content {
+  position: absolute;
+  bottom: 0px;
+  background: white;
+  width: 100%;
+  padding: 20px 30px;
+  text-align: justify;
+}
+.card:active .image img {
+  opacity: 0.6;
+  transform: scale(1.1);
+}
+.card .title {
+  font-size: 24px;
+  font-weight: 600;
+}
+.bottom {
+  display: none;
+}
+.bottom p {
+  color: #666666;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 1.8em;
+}
+.bottom button {
+  padding: 7px 15px;
+  font-size: 17px;
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.bottom button:hover {
+  translate: scale(0.9);
+}
+/**********************
+/***** Services *******
+/*********************/
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+section .section-title {
+  text-align: center;
+  color: #bb0b0b;
+  margin-bottom: 50px;
+}
+#what-we-do {
+  background: #ffffff;
+  padding: 50px;
+}
+#what-we-do .card {
+  padding: 1rem !important;
+  border: none;
+  margin-bottom: 1rem;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+#what-we-do .card:hover {
+  -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+  -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+  box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+#what-we-do .card .card-block {
+  padding-left: 70px;
+  position: relative;
+}
+#what-we-do .card .card-block a {
+  color: #bb0b0b !important;
+  font-weight: 700;
+  text-decoration: none;
+}
+#what-we-do .card .card-block a i {
+  display: none;
+}
+#what-we-do .card:hover .card-block a i {
+  display: inline-block;
+  font-weight: 700;
+}
+#what-we-do .card .card-block:before {
+  /* font-family: FontAwesome; */
+  position: absolute;
+  font-size: 39px;
+  color: #bb0b0b;
+  left: 0;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+}
+#what-we-do .card .block-1:before {
+  content: url("../images/icons/system.png");
+}
+#what-we-do .card .block-2:before {
+  /* content: "\f5ba"; */
+  content: url("../images/icons/solar.png");
+}
+#what-we-do .card .block-3:before {
+  /* content: "\f2db"; */
+  content: url("../images/icons/tfm.png");
+}
+#what-we-do .card .block-4:before {
+  /* content: "\f3cd"; */
+  content: url("../images/icons/cctv.png");
+}
+#what-we-do .card .block-5:before {
+  /* content: "\f8ac"; */
+  content: url("../images/icons/parking.png");
+}
+#what-we-do .card .block-6:before {
+  /* content: "\f72d"; */
+  content: url("../images/icons/dist.png");
+}
+#what-we-do .card:hover .card-block:before {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+#what-we-do h3 {
+  font-size: 1.25em;
+  font-weight: 700;
+}

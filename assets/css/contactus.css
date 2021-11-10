@@ -178,7 +178,7 @@ body {
 }
 
 .jumbotron {
-  border-radius: 10px;
+ 
   padding-top: 120px;
 
   background: url("../images/pages/contact.png");
@@ -186,6 +186,7 @@ body {
  background-size:cover;
   color: white !important;
   height: 60vh;
+  filter: grayscale(80%);
    
 }
 .jumbotron h1
@@ -226,7 +227,7 @@ body {
   .contact-map iframe
   {
     height:200px;
-  }
+    filter: grayscale(100%); }
   .rs-contact.contact-style2 .contact-wrap .from-control {
     padding: 17px 17px 17px 17px;
     color: #000000;
