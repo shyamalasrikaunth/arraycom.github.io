@@ -197,9 +197,9 @@ body {
 }
 
 .bg1 {
-  background-image: url(../images/about-bg2.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
+  /* background-image: url(../images/about-bg2.jpg); */
+  background-color:#c53835;
+   
 }
 
 .callforaction {
@@ -393,4 +393,10 @@ body {
 
 .slick-slide {
   height: inherit !important;
+}
+.slide img
+{
+  
+    opacity: 0.6;
+   
 }
