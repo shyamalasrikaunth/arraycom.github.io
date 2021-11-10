@@ -387,7 +387,7 @@ overflow: hidden;
   .hero-equal-height {
     position: relative;
     margin-top:50px;
-    height:90vh;
+    height:100vh;
     background-image:url('../images/vertbanner.jpg');
     background-size:cover;
     background-position: center;
