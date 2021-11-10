@@ -1,0 +1,14 @@
+.jumbotron {
+    padding-top: 120px;
+  
+    background: url("../images/pages/security.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white !important;
+    height: 60vh;
+    filter: grayscale(70%);
+  }
+  .jumbotron h1 {
+    padding-top: 40px;
+    font-size: 40px;
+  }
