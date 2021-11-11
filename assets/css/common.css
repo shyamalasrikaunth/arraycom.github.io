@@ -238,6 +238,19 @@ h4{
     font-weight: 700;
     color: #0a0a0a;
   }
+/* .counter-section
+{
+  background-color:#0a1e34;
+ 
+} */
+  .counter-area 
+  {
+    background: white;
+    padding: 44px 10px 44px 9px;
+    border: 1px solid #cfcfcf;
+    margin:30px 0px;
+    
+  }
   .sticky {
     position: fixed;
     top: 0;
