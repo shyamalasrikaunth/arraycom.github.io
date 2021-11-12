@@ -29,13 +29,13 @@
   background: white;
 }
 .roundImg {
-  border-radius: 50%;
+  /* border-radius: 50%;
 
-  border: 5px solid grey;
+  border: 5px solid grey; */
   position: relative;
   margin-bottom: 50px;
-  border-radius: 50%;
-  border: 4px dashed transparent;
+  /* border-radius: 50%;
+  border: 4px dashed transparent; */
   transition: padding 0.3s;
   background: #0a1e34;
   width: 220px;
