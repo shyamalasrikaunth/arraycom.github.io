@@ -4,16 +4,17 @@
    
   padding-top: 100px;
 
-  background: url("../images/pages/about.jpg");
+  /*background: url("../images/pages/about.jpg");*/
+  background: url("../images/homepage/bgeng2.jpg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  
   background-size:cover;
   color: white !important;
   height: 60vh;
   align-items: center;
   justify-content: center;
   display: flex;
-  filter: grayscale(80%);
+  /* filter: grayscale(80%); */
 }
  
 .about h2:after {
@@ -21,20 +22,36 @@
   display: block;
   border: 1px solid black;
 }
-
-
-
+.about p{
+  line-height:1.5;font-size:20px;
+}
+.ervice-item
+{
+  padding:20px 0px;
+}
+.service-text
+{
+  padding:20px;
+}
 .service-text p {
-  font-size: 16px !important;
-   
-  text-align: justify;
+  font-size: 1.05rem !important;
+  font-weight:600;
+  word-spacing:0.5rem;
+  word-break: normal;
+  line-height:1.5rem;
+  text-align: center;
 }
 
  .Services p
  {
-  font-size: 18px !important;
-  
+  font-size: 20px !important;
+  word-break: normal;
   text-align: justify;
+  font-weight:bold;
+
+padding:0px 5px;
+ 
+   
  }
 .owlslider {
   max-width: 1200px;
@@ -89,7 +106,7 @@
 }
 
 .owlslider .card .title {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 600;
 }
 
@@ -109,7 +126,7 @@
   cursor: pointer;
   transition: 0.2s;
 }
-
+ 
 .Services h2:after {
   content: " ";
   display: block;
@@ -121,3 +138,124 @@
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);  
     color:#bd0b0c
   } 
+  @media only screen and (min-width: 768px) and (max-width: 991.98px)
+   {  
+    .about p 
+    {
+      font-size:13px;
+    }
+    .abt-img
+    {
+      padding:20px 0px 0px;
+    }
+    .jumbotron
+    {
+      height: 20vh;
+      background-size:cover;
+      padding-top:70px;
+     
+    }
+    h4{
+      font-size:2.5rem !important;
+      font-weight:400;
+      background:rgba(0,0,0,0.2);
+    }
+    .side-one h4
+    {
+      font-size:0.9rem !important;
+      font-weight:bold;
+    }
+    .side-one p
+    {
+      font-size:0.7rem !important;
+      font-weight:bold;
+    }
+    .service-item
+    {
+      padding:1rem;
+    }
+    .service-text p {
+      
+      
+      font-size:0.75rem !important;
+      line-height:1rem;
+      font-weight:400;
+      text-align:left;
+      
+      
+  }
+  .service-text h3{
+    font-size:1rem;
+    font-weight:800;
+  }
+  .service-item img{
+    width:100px;
+  }
+  .owlslider .card .title {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .owlslider .card .title1 {
+     
+    padding-bottom:20px;
+  }
+ 
+  }
+  @media only screen and (max-width: 575px)  
+  {
+    .jumbotron
+    {
+      height: 30vh  !important;;
+      background-size:cover  !important;;
+      padding-top:32px  !important;; 
+     
+    }
+    .jumbotron  h4{
+      font-size:2.5rem !important;
+    }
+    .about{
+      padding:10px 20px !important;
+
+    }
+    .mt-5
+    {
+      margin-top:0px !important;
+    }
+    .pr-5
+    {
+      padding-right:10px !important;
+    }
+    .about p {
+      text-align: justify;
+       
+       
+      font-size:0.8rem !important;
+    }
+    .callforaction h3{
+      font-size:1.05rem !important;
+      padding-top:10px;
+    }
+    .align-right{
+      text-align:center !important;
+    }
+    .callforaction{
+      padding:20px 50px 10px 0px !important;
+      min-height:80px;
+    }
+    .service-icon img {
+      width:100px;
+    }
+    .filler-section
+    {
+      padding-bottom:0px !important;
+    }
+    .Services h3{
+      font-size:1.5rem;
+      font-weight:bold;
+    }
+
+    .Services p{
+      font-size:18px !important;
+      
+    }
+  }

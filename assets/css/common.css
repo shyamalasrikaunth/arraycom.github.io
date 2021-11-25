@@ -351,3 +351,20 @@ h4{
     border-radius: 125px/12px;
     box-shadow: 0 0 8px black;
   }
+  @media only screen and (min-width: 768px) and (max-width: 991.98px) {  
+    .top-bar::before {
+      content: "";
+      height: 13%;
+      width: 63%;
+      /* #858789;*/
+      background: #0a1e34;
+      position: absolute;
+      top: 0;
+      left: -20px;
+      transform: skew(-25deg);
+    }
+    .top-bar ul li,
+.social-icons li {
+  margin-right:5px;
+}
+  }
