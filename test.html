@@ -107,12 +107,20 @@ footer
     
     
 }
-@media (max-width: 480px) {
-  header  h1 { font-size: 1.8em; }
-  .bg-image
-  {
-      overflow-y: scroll;
-  }
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+.bg-image
+{
+  min-height: 300px;
+  background-image: url(assets/images/homepage/bgeng1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+}
   footer
 {text-align:center;
 }
