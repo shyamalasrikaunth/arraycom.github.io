@@ -1,16 +1,24 @@
-.jumbotron {
-  padding-top: 120px;
-
+.jumbotron-image{
+  position:absolute;
+  top:8em;
   background: url("../images/pages/jumbo1.jpg");
   background-repeat: no-repeat;
 
   color: white !important;
-  background-size: 1375px 350px;
-  height: 60vh;
+  background-size:cover;
+  height:300px;
   filter: grayscale(50%);
 }
 .jumbotron h4 {
   background: rgba(0, 0, 0, 0.5);
+}
+.services-header
+{
+  height:50vh;
+  background: url("../images/pages/jumbo1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 /* .card
 {
@@ -158,3 +166,36 @@ section .section-title {
   font-size: 1.25em;
   font-weight: 700;
 }
+.divtitle{
+  margin-top:120px;
+  font-size:3.5rem !important;
+  font-weight:400;
+  background:rgba(0,0,0,0.2);
+  color:white;
+}
+ /**media queries***/
+ @media (max-width: 575px){
+  .services-header
+  {
+    height:30vh;
+    background: url("../images/pages/jumbo1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+  }
+  .divtitle{
+    font-size:2.5em !important;
+    padding-top:10px;
+    margin-top:50px !important;
+  }
+ }
+
+ /****service2 css***/
+ @media only screen and (min-width: 576px) and (max-width: 767px) {
+ }
+ @media only screen and(min-width: 768px) and (max-width: 991px) {
+ }
+ @media only screen and (min-width: 992px) and (max-width: 1199px) {
+ }
+ @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+ }
