@@ -388,23 +388,26 @@ h4{
 };
   }
   @media (max-width: 575px){
-    .counter-icon img
+    /* .counter-icon img
     {
       width:120px !important;
       height:100px !important;
-    }
+    } */
     .content-part h5
     {
-      font-size:2.5rem;
+      font-size:1.25rem;
       font-weight:600;
     }
     .rs-count
     {
-      font-size:60px !important;
-      line-height: 90px !important;
+      font-size:30px !important;
+      line-height: 50px !important;
     }
     .social-icons
     {
       text-align:center !important;
+    }
+    .plus{
+      font-size:30px !important;
     }
   }
