@@ -524,3 +524,20 @@
   background-color: #020913;
   color: white;
 }
+@media (max-width: 575px){
+  .jumbotron {
+    padding-top: 120px;
+  
+    background: url("../images/pages/contact.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white !important;
+    height: 20vh;
+    filter: grayscale(80%);
+  }
+  .jumbotron h1 {
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+}

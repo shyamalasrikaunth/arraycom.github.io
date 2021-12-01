@@ -135,6 +135,7 @@ card,
 .side-one a {
   text-decoration: none;
   color: black;
+  cursor:pointer;
 }
 /* .card:hover {
     /* background-color: #cccccc;  

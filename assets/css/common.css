@@ -5,9 +5,7 @@ body {
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
 }
-p{
-  text-align: justify;
-}
+ 
 h4{
   font-size: 1.8rem;
 }
@@ -180,12 +178,24 @@ h4{
   padding-right: 0;
   margin-right: -4px;
 }
+ 
 
 .dot {
   height: 5px;
   width: 5px;
   display: block;
   background: #bb0b0b;
+  border-radius: 50%;
+  transition: none;
+  list-style: none;
+  transition: all 0.3s ease;
+  margin: 2px 3px;
+}
+.dot1 {
+  height: 5px;
+  width: 5px;
+  display: block;
+  background: white;
   border-radius: 50%;
   transition: none;
   list-style: none;
@@ -238,6 +248,12 @@ h4{
     font-weight: 700;
     color: #0a0a0a;
   }
+  
+  .plus
+{
+   padding-left:10px;
+  font-size:40px;
+}
 /* .counter-section
 {
   background-color:#0a1e34;
@@ -367,4 +383,28 @@ h4{
 .social-icons li {
   margin-right:5px;
 }
+.copyright p {
+  text-align:center !important;
+};
+  }
+  @media (max-width: 575px){
+    .counter-icon img
+    {
+      width:120px !important;
+      height:100px !important;
+    }
+    .content-part h5
+    {
+      font-size:2.5rem;
+      font-weight:600;
+    }
+    .rs-count
+    {
+      font-size:60px !important;
+      line-height: 90px !important;
+    }
+    .social-icons
+    {
+      text-align:center !important;
+    }
   }

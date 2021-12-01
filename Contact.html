@@ -97,7 +97,7 @@
                     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                         data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                         aria-label="Toggle navigation">
-                        <div class="bar">
+                        <div class="bar ">
                             <span class="dot"></span>
                             <span class="dot"></span>
                             <span class="dot"></span>
@@ -108,12 +108,13 @@
                             <span class="dot"></span>
                             <span class="dot"></span>
                         </div>
+                    
 
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav mx-md-auto ">
                             <li class="nav-item ml-5 ">
-                                <a class="nav-link" href="Index.html">
+                                <a class="nav-link" href="Index2.html">
                                     Home
                                 </a>
                             </li>
@@ -123,7 +124,7 @@
                                 </a>
                             </li>
                             <li class="nav-item  ml-5 ">
-                                <a class="nav-link" href="Services.html">
+                                <a class="nav-link" href="Services2.html">
                                     Services
                                 </a>
                             </li>
@@ -142,7 +143,7 @@
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-12">
                         <h1>Have Questions-Contact Us</h1>
                         
                     </div>
@@ -156,12 +157,12 @@
         <div class="rs-contact contact-style2 bg9 pt-5 mt-3 mb-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 pr-40 md-pr-15 md-mb-50">
+                    <div class="col-lg-6 pr-40 md-pr-15 md-mb-50 col-12">
                         <div class="contact-map">
                             <iframe    frameborder="0"   id="the_iframe" width="100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3665.7042672214366!2d72.629756914972!3d23.25384628483636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb6023d821b17d374!2sArraycom+India+Ltd.!5e0!3m2!1sen!2sin!4v1523886851710"></iframe>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-12">
                         <div class="sec-title mb-45 md-mb-25">
                             <h2 class="title pb-20">
                               Get in <span>touch.</span>
@@ -209,7 +210,7 @@
                 <div class="container">
                     <div class="contact-icons-style box-address pt-100 md-pt-70">
                         <div class="row">
-                            <div class="col-lg-3 col-md-6 col-sm-6 md-mb-30">
+                            <div class="col-lg-3 col-md-6 col-sm-6 md-mb-30 col-12">
                                 <div class="contact-item">
                                    <div class="contact-icon">
                                        <img src="assets/images/pages/location.png" alt="images">
@@ -221,7 +222,7 @@
                                    </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6 xs-mb-30">
+                            <div class="col-lg-3 col-md-6 col-sm-6 xs-mb-30 col-12">
                                 <div class="contact-item">
                                    <div class="contact-icon">
                                        <img src="assets/images/pages/reglocation.png" alt="images">
@@ -232,7 +233,7 @@
                                    </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6 xs-mb-30">
+                            <div class="col-lg-3 col-md-6 col-sm-6 xs-mb-30 col-12">
                                 <div class="contact-item">
                                    <div class="contact-icon">
                                        <img src="assets/images/pages/email.png" alt="images">
@@ -244,7 +245,7 @@
                                    </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                                 <div class="contact-item">
                                    <div class="contact-icon">
                                        <img src="assets/images/pages/call.png" alt="images">
@@ -277,7 +278,7 @@
                              
                             <img src='assets/images/Client/bw/2.jpg'   alt=""/>
                        </div>
-                        <div class="slide" style="padding-top:30px;" >
+                        <div class="slide" >
                             <img src='assets/images/Client/bw/3.jpg' height="100"  alt="">
                       </div>
                         
@@ -391,6 +392,7 @@ var $topbar = $('.top-bar');
 var $navbar = $('.navbar');
 var $logo1 = $('.logo1');
 var $logo2 = $('.logo2');
+ 
 
 $(window).scroll(function(event){
 var st = $(this).scrollTop();
@@ -406,6 +408,11 @@ if (st > 1) { // scroll down
    $logo1.removeClass('d-block');
    $logo2.removeClass('d-none');
    $logo2.addClass('d-block');
+   $(".dot").css("background", "white");
+    
+   
+  
+  
   // use this to use CSS3 animation
   // $navbar.addClass("fade-out");
   // $navbar.removeClass("fade-in");
@@ -422,6 +429,8 @@ if (st > 1) { // scroll down
   $logo1.addClass('d-block');
    $logo2.removeClass('d-block');
    $logo2.addClass('d-none');
+   
+   $(".dot").css("background", "#bb0b0b");
   // use this to use CSS3 animation
   // $navbar.addClass("fade-in");
   // $navbar.removeClass("fade-out");

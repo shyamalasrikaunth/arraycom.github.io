@@ -174,23 +174,101 @@ section .section-title {
   color:white;
 }
  /**media queries***/
- @media (max-width: 575px){
-  .services-header
-  {
-    height:30vh;
-    background: url("../images/pages/jumbo1.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
-  }
-  .divtitle{
-    font-size:2.5em !important;
-    padding-top:10px;
-    margin-top:50px !important;
-  }
- }
 
  /****service2 css***/
+
+.service-section
+{
+  margin:50px;
+  padding:20px;
+}
+ 
+.content-holder:hover{
+  
+    box-shadow: 0px 20px 40px rgba(0,0,0,0.4);
+    transform: scale(1.05,1.05);
+   
+   
+}
+
+.content-holder img
+{
+  width:70px;
+height:70px
+}
+.text-detail
+{
+  
+  padding:1.5rem;
+  
+}
+.text-detail h3
+{
+  font-size:1.5rem;
+}
+.text-detail a
+{
+  color:#bb0b0b !important;
+}
+.content-holder p{
+  
+  display:inline-block;
+	text-align: justify;
+	 
+}
+.plus
+{
+   padding-left:10px;
+  font-size:40px;
+}
+@media (max-width: 575px){
+  .services-header
+  {
+    height:80vh;
+    background: url("../images/vertbanner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center center; */
+  }
+  .divtitle{
+    font-size:4.5em !important;
+    padding-top:10px;
+    margin-top:250px !important;
+    font-weight:800 !important;
+  }
+  .content-holder
+  {
+    box-shadow: 0px 20px 40px rgba(0,0,0,0.4);
+    margin-bottom:3rem;
+  }
+  .content-holder img
+{
+  width:90px !important;;
+height:90px !important;
+}
+ 
+.content-holder:hover{
+  
+  box-shadow: 0px 20px 40px rgba(0,0,0,0.4);
+   
+ 
+ 
+}
+.plus {
+  padding-left: 27px;
+  font-size: 65px;
+}
+.callforaction h3{
+  font-size:1rem;
+  font-weight:bold;
+  padding-top:10px;
+}
+.text-detail p 
+{
+padding:0px 15px 0px 10px;
+}
+ }
+
  @media only screen and (min-width: 576px) and (max-width: 767px) {
  }
  @media only screen and(min-width: 768px) and (max-width: 991px) {

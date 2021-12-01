@@ -110,7 +110,69 @@
     
     
 }
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+.fa {
+    padding: 8px !important;
+    font-size: 30px !important;
+    width: 50px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    margin: 5px 2px !important;
+}
+
+.fa-facebook {
+  background: #3B5998 !important;
+  color: white !important;
+  margin-right:1rem;
+  
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+ 
+}
+
+ 
+  footer
+{text-align:center;
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px) {
+  .h1class
+  {
+     
+   text-align: center !important;
+  }
+  .servive-block a ,.middle-content a,.right-content  a
+  {
+font-size:25px !important;
+  }
+  .social
+  {
+    text-align:left !important;
+  }
+  .container {
+    width:95% !important;
+    margin-right:1rem;
+     }
+     .about-icon
+     {
+       width:80px;
+       height:55px;
+     } 
+     .footer
+     {
+      font-size: 1.05rem;
+    text-align: center;
+     }
+  /* Styles */
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1)
+ {
   .ipad-portrait { color: red; } /* your css rules for ipad portrait */
   .bg-image
 {
@@ -124,14 +186,33 @@
 }
  .main
  {
-   margin-top:100px;
+   margin-top:80px;
  }
+ .container {
+    width:95% !important;
+    margin-right:2.5rem;
+     }
+     .h1class{
+      text-align: center !important;
+      font-size:3rem;
+      padding:1rem;
+     }
+     .about-icon
+     {
+       width:80px;
+       height:55px;
+     } 
+     .footer
+     {
+      font-size: 1.25rem;
+    
+     }
+     .servive-block a ,.middle-content a,.right-content  a
+  {
+font-size:25px !important;
+  }
 }
  
-  footer
-{text-align:center;
-}
-
  
 
     </style>
@@ -149,19 +230,16 @@
               </h2>
             
             </div>
-            <div class="col-6 text-right">
-                <a href="https://www.facebook.com/arraycomindialimited" >
-                    <i class="fa fa-facebook-square fa-2x"></i>
-                </a>
-              <a href="https://twitter.com/arraycom" >
-                <i class="fab fa-twitter fa-2x"></i>
+            <div class="col-6 text-right social">
+              <a href="https://www.facebook.com/arraycomindialimited" class="fa fa-facebook fa-2x"></a>
+              <a href="https://twitter.com/arraycom" class="fa fa-twitter fa-2x"></a>
               </a>
             </div>
                         
           </div>
           <div class="row">
             <div class="col-12">
-                <h1 class="fw-light text-center mt-5 pt-4">
+                <h1 class="fw-light text-center mt-3 h1class">
                     Engineering for a Better Tomorrow
                 </h1>
               
@@ -216,7 +294,7 @@
                     >
                       <a
                         class="work align-middle inline-block"
-                        href="Services.html"
+                        href="Services2.html"
                         onclick="gotoPageWithTrans1(1)"
                       >
                         <img
