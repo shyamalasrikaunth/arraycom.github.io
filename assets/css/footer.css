@@ -157,6 +157,7 @@
   .rs-footer.style1 .footer-bottom .copyright p {
     margin: 0;
     color: #ffffff;
+    font-size:0.75rem;
   }
   .rs-footer.style1 .footer-bottom .copy-right-menu li {
     display: inline-block;
@@ -263,4 +264,15 @@
   #scrollUp.paste-color i:hover {
     opacity: 0.8;
   }
-  
+  @media only screen and (max-width: 575px)  
+  {
+  .rs-footer.style1 .footer-bottom .copyright p {
+    margin: 0;
+    color: #ffffff;
+    font-size:0.75rem;
+  }
+  #scrollUp
+  {
+    bottom:22px;
+  }
+}

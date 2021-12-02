@@ -205,17 +205,24 @@ padding:0px 5px;
   {
     .jumbotron
     {
-      height: 30vh  !important;;
+      height: 35vh  !important;;
       background-size:cover  !important;;
       padding-top:32px  !important;; 
      
     }
     .jumbotron  h4{
-      font-size:2.5rem !important;
+      font-size:1.25rem !important;
+      font-weight:800 !important;
+      background:rgba(133, 135, 137, 0.7);
     }
-    .about{
+    /* .about{
       padding:10px 20px !important;
 
+    } */
+    .about h4
+    {
+      font-size:1.25rem;
+      font-weight:800;
     }
     .mt-5
     {
@@ -232,30 +239,61 @@ padding:0px 5px;
       font-size:0.8rem !important;
     }
     .callforaction h3{
-      font-size:1.05rem !important;
-      padding-top:10px;
+      font-size: 1rem !important;
+      font-weight: 800;
+      padding: 10px 3px;
     }
     .align-right{
       text-align:center !important;
     }
     .callforaction{
-      padding:20px 50px 10px 0px !important;
+      padding:20px 0px 10px 0px !important;
       min-height:80px;
     }
-    .service-icon img {
-      width:100px;
+    .callforaction .btn{
+      padding: 0.25rem 0.5rem;
+      margin-bottom:0.5rem;
     }
+    .service-icon img {
+      width:80px;
+    }
+    .service-text h3
+    {
+      font-size:1.25rem;
+      font-weight:800;
+    }
+    .service-text p {
+      font-size: 1rem;
+      font-weight: 500;
+      
+       display: inline-block;
+      
+      text-align: justify;
+  }
     .filler-section
     {
       padding-bottom:0px !important;
     }
     .Services h3{
-      font-size:1.5rem;
+      font-size:1.15rem;
       font-weight:bold;
     }
 
     .Services p{
-      font-size:18px !important;
+      font-size:15px !important;
       
     }
+    .Services h4,.team-section h4{
+      font-size: 1.25rem;
+    font-weight: 800;
+    }
+    .owlslider .card .title {
+      font-size: 15px;
+      font-weight: 600;
+  }
+  .team-section
+  {
+    padding:0px;
+  }
+  
   }

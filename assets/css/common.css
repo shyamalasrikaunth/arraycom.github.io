@@ -410,4 +410,7 @@ h4{
     .plus{
       font-size:30px !important;
     }
+    .client-section {
+      padding:10px !important;
+    }
   }
