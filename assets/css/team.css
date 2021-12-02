@@ -217,4 +217,14 @@ button:not(:disabled) {
      {
        width:180px;
      }
+     .bgteam
+     {
+       height:40vh !important;
+       padding-top:60px !important;
+     }
+     .circle
+{
+  width:175px !important;
+}
+
    }

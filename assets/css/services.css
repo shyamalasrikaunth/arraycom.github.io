@@ -274,10 +274,22 @@ height:90px !important;
 padding:0px 15px 0px 10px;
 }
  } */
-
+}
  @media only screen and (min-width: 576px) and (max-width: 767px) {
  }
- @media only screen and(min-width: 768px) and (max-width: 991px) {
+ @media only screen and (min-width: 768px) and (max-width: 991.98px) { 
+ .services-header
+ {
+   height:200px !important;
+ }
+ .divtitle
+ {
+   margin-top:80px !important;
+ }
+ .text-detail h3
+ {
+   font-size:1.25rem;
+ }
  }
  @media only screen and (min-width: 992px) and (max-width: 1199px) {
  }

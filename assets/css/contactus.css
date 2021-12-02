@@ -557,3 +557,17 @@
     padding-top:0px !important;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991.98px)
+{
+  .jumbotron
+  {
+    height:30vh;
+  }
+  .jumbotron h4{
+    font-size:4.5rem !important;
+    text-align:center !important;
+  }
+  .rs-contact h3{
+    font-size:2.75rem;
+  }
+}

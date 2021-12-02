@@ -344,6 +344,9 @@ h4{
     padding: 50px;
     margin-bottom: 10px;
   }
+  .client-section .dd{
+    height:120px;
+  }
   
   .h-divider {
     margin: auto;
@@ -383,6 +386,13 @@ h4{
 .social-icons li {
   margin-right:5px;
 }
+.client-section .dd{
+  height:60px;
+}
+.filler-section
+{
+  padding-bottom:0px;
+}
 .copyright p {
   text-align:center !important;
 };
@@ -393,6 +403,9 @@ h4{
       width:120px !important;
       height:100px !important;
     } */
+    .client-section .dd{
+      height:75px;
+    }
     .content-part h5
     {
       font-size:1.25rem;
