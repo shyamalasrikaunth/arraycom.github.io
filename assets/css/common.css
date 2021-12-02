@@ -413,4 +413,20 @@ h4{
     .client-section {
       padding:10px !important;
     }
+    .callforaction h3{
+      font-size: 1rem !important;
+      font-weight: 800;
+      padding: 10px 3px;
+    }
+    .align-right{
+      text-align:center !important;
+    }
+    .callforaction{
+      padding:20px 0px 10px 0px !important;
+      min-height:80px;
+    }
+    .callforaction .btn{
+      padding: 0.25rem 0.5rem;
+      margin-bottom:0.5rem;
+    }
   }

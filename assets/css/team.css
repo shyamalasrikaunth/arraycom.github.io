@@ -197,6 +197,19 @@ button:not(:disabled) {
   {
     width:160px !important;
   }
+  .bgteam
+    {
+        height:40vh;
+        padding-top:40px;
+    }
+  .bgteam h4 {
+    font-size: 1.5rem !important;
+    font-weight: 800 !important;
+    background: rgba(133, 135, 137, 0.7);
+}
+.team-det img {
+  width:170px !important;
+};
 }
 @media only screen and (min-width: 768px) and (max-width: 991.98px)
    { 
