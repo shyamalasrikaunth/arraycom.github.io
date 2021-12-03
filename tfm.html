@@ -26,6 +26,13 @@
         <link rel="stylesheet" href="assets/css/footer.css" />
         <link rel="stylesheet" href="assets/css/common.css" />
         <link rel="stylesheet" href="assets/css/tfm.css" />
+        <style>
+            .tfm-area
+            {
+                height:200px;
+                width:250px;
+            }
+        </style>
     </head>
 <body>
     <div id="pre-load">
@@ -153,9 +160,45 @@
         </div>
     </div>
      
-   <div class="solardiv">
-        Thick film material  division 
-   </div>
+   <div class="tfm">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                        <h4>Thick Film Technology</h4>
+                        <p style="text-align:left;"> Our vision is to become the preferred supplier by customizing our materials and processes for various industrial applications. Our endeavor is to meet customer expectations in terms of cost, schedule and quality. We believe in building a safer, healthier and greener world with our engineered materials and processes.
+
+                            The Quality Management System at Arraycom adheres to ISO   9001:2015 standard certified by DNV. Thick Film Material – TFM are used for manufacturing of hybrid micro circuits, resistors, capacitors, solar cells and semiconductor packaging. These find applications in Telecom, automotive, medical, military, aerospace and consumer industries. We are producers of the following thick film material related products viz. Solar Paste, Conductive Paste (Ag | Pd | Pt Conductor), Membrane Ink, Resistor Paste, Overglaze Paste (Insulation Paste) and Precious Metal Powder.
+                            </p>
+                </div>
+                <div class="col-lg-3">
+                    <div class="container">
+            
+                        <div class="tfm-area slider">
+                            <div class="slide" >.
+                                <img src='assets/images/Divisions/tfm/silver-membrane-paste-370x220.jpg'   alt="">
+                           </div>
+                                <div class="slide">
+                                     
+                                    <img src='assets/images/Divisions/tfm/tfm1-350x225.png'   alt=""/>
+                               </div>
+                                <div class="slide" style="padding-top:30px;" >
+                                    <img src='assets/images/Divisions/tfm/tfm2-350x225.png' height="100"  alt="">
+                              </div>
+                                
+                                <div class="slide" >
+                                    <img src='assets/images/Divisions/tfm/tfm4-350x225.png'   alt="">
+                              </div>
+                                
+                                 
+                               
+            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="callforaction bg1">
         <div class="container">
             <div class="row">
@@ -404,7 +447,27 @@ integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QV
 crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
        
-    $('.logo-area').slick({
+    $('.tfm-area').slick({
+     slidesToShow: 1,
+     slidesToScroll: 1,
+     autoplay: true,
+     autoplaySpeed: 1500,
+     arrows: false,
+     dots: false,
+     pauseOnHover: true,
+     responsive: [{
+         breakpoint: 768,
+         settings: {
+             slidesToShow: 1
+         }
+     }, {
+         breakpoint: 520,
+         settings: {
+             slidesToShow: 1
+         }
+     }]
+ });
+ $('.logo-area').slick({
      slidesToShow: 6,
      slidesToScroll: 1,
      autoplay: true,
@@ -424,7 +487,6 @@ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
          }
      }]
  });
-
   </script>
  <script>
      var counter_Up = $('.rs-count');
