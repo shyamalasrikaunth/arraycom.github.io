@@ -146,7 +146,7 @@ h4{
 }
 
 .nav-link {
-  width: 25%;
+  /* width: 25%; */
 
   padding: 12px;
   text-decoration: none;
@@ -211,8 +211,8 @@ h4{
   .callforaction {
     color: white;
     padding: 40px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     min-height: 100px;
   }
   
