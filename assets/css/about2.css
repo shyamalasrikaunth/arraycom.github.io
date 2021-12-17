@@ -1,0 +1,292 @@
+  
+        .jumbotron {
+   
+            padding-top: 100px;
+          
+            /*background: url("../images/pages/about.jpg");*/
+            background: url("../images/homepage/bgeng1.jpg");
+            background-repeat: no-repeat;
+            
+            background-size:cover;
+            color: white !important;
+            height: 60vh;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            /* filter: grayscale(80%); */
+          }
+        .about p{
+            font-size:16px !important;
+            font-size:normal !important;
+            line-height: 2rem;
+            color:grey;
+        }
+        .service-icon
+        {
+            background:#c1c2c3;
+            text-align:center;
+            color:#ffffff;
+        }
+        .service-icon img
+        {
+            padding:35px 9px;
+        }
+        .services-text-left
+        {
+            text-align:left;
+        }
+        .service-left h4, .service-right h4{
+            font-size:20px;
+            font-weight:800;
+        }
+        .service-left p, .service-right p{
+            font-size:16px;
+            font-weight:normal;
+            color:grey;
+        }
+        .service-left p,.service-left h4
+        {
+            text-align:right !important;
+        }
+        .Services
+        {
+            padding:50px;
+             
+            margin:auto;
+        }
+        .serv-para p
+        {
+            font-size:18px !important;
+            font-weight: normal !important;
+            color:grey;
+        }
+        .services-left p,.service-right p
+        {
+             text-align:left;font-size:16px !important;
+        }
+        .our-team
+        {
+            text-align: center;
+            position:relative;
+            color:white;
+            padding:70px;
+            
+        }
+        .our-team img
+        {
+            width:100%;
+        }
+        .our-team .content
+{
+            background:rgba(0,0,0,0.2);
+            position:absolute;
+            height:100%;
+            width:100%;
+            left:0;
+            top:0;
+            text-align:center;
+            padding-top:35%;
+             
+            transform:perspective(400px) rotateX(-90deg);
+            transform-origin:center top 0;
+            transition:all 0.5s ease 0s;
+            opacity: 0;
+ }
+.our-team:hover .content,
+.our-team.active .content{
+  opacity:1;
+  transform:perspective(400px) rotateX(0deg);
+  cursor: pointer;
+}
+.our-team .content .title{
+  margin:0 0 10px;
+  display:block;
+  font-size: 25px;
+  font-weight: 600;
+}
+.our-team .content .post{
+  margin:0 0 25px;
+  display:block;
+  font-size: 15px;
+}
+.our-team .social{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+.our-team .social li{
+  display:inline-block;
+}
+.our-team .social li a{
+  display:block;
+  color:#fff;
+  font-size: 20px;
+  height:40px;
+  width:40px;
+  line-height: 40px;
+  border-radius: 0;
+  background-color:#f32248;
+  margin-right:5px;
+  transition:all 0.5s ease 0s;
+  position:relative;
+  
+}
+.our-team .social li a:hover,
+.our-team.active .social li a{
+  border-radius: 50%;
+  text-decoration: none;
+}
+.teamsection
+{
+  background-color: #d7ebeb
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) { 
+    .abt-img
+    {
+         padding-top:4.5rem;
+         width:100%;
+         
+    } 
+    .about p{
+        font-size:14px !important;
+        font-weight:800;
+        line-height:1.25rem;
+    };
+    .mt-5
+    {
+        margin-top:2rem !important;
+    }
+  
+    .jumbotron h4{
+        font-size:2.5rem !important;
+        font-weight:400;
+        background:rgba(0,0,0,0.2);
+      }
+      .jumbotron
+    {
+      height: 30vh !important;
+      background-size:cover;
+      padding-top:70px;
+     
+    }
+    .Services {
+        padding: 20px;
+        margin: auto;
+    }
+    .serv-para p {
+        font-size: 17px !important;
+        font-weight: bold;
+        color: grey;
+    }
+    .service-icon{
+         
+    text-align: center ;
+    color: #ffffff;
+    }
+    .service-icon img {
+        padding:0px !important;
+    }
+    .service-left h4, .service-right h4 {
+        font-size: 17px;
+        font-weight: 800;
+    }
+    .service-left p ,.service-right p{
+        font-size:14px !important;
+    };
+    .ml-3
+    {
+        margin-left:0px !important;
+    }
+    .our-team
+    {
+      padding:40px !important;
+    }
+    .our-team .content .title
+    {
+      font-size:18px;
+    }
+    .our-team .content .post
+    {
+      font-size:14px;
+    }
+    .our-team .content
+    {
+      padding-top:30%;
+    }
+    .service-section 
+    {
+      margin-right:4rem !important;
+    }
+    .service-left p, .service-right p ,.service-left h4
+    
+    {
+      text-align:left !important;
+      line-height: 1.5rem;;
+
+    }
+    .service-icon
+    {
+      background:none;
+    }
+}
+@media (max-width: 575px){
+    .jumbotron
+    {
+      height: 30vh  !important;;
+      background-size:cover  !important;;
+      padding-top:62px  !important;; 
+      margin-bottom: 0px !important;
+    }
+    .jumbotron h4
+    {
+         
+      font-size:1.4rem !important;
+      font-weight:600 !important;
+      background:rgba(133, 135, 137, 0.7);
+    
+    }
+    .pt-100
+    {
+      margin-top:0px !important;
+    }
+    .about p 
+    {
+      text-align:justify !important;
+    }
+    .serv1-headline
+    {
+      font-size:1.3rem !important;
+      font-weight:700;
+    }
+    .Services{
+      padding:10px !important;
+    }
+    .Services p{
+      text-align:justify;
+      word-break: break-all;
+      font-size:12px !important;
+    }
+    .service-left p {
+      text-align: justify !important;
+  }
+  .service-left h4,.service-right h4
+  {
+    text-align: center !important;
+  }
+  .service-icon
+    {
+      background:none;
+    }
+    .Services .ml-3
+    {
+      margin-left:0px !important;
+    }
+    .our-team
+    {
+      padding:60px !important;
+     
+    }
+   
+ 
+}
+  

@@ -140,6 +140,10 @@ padding:0px 5px;
   } 
   @media only screen and (min-width: 768px) and (max-width: 991.98px)
    {  
+     .ml-3
+     {
+       margin:0px !important;
+     }
     .about p 
     {
       font-size:13px;
@@ -198,6 +202,10 @@ padding:0px 5px;
   .owlslider .card .title1 {
      
     padding-bottom:20px;
+  }
+  .client-section dd1
+  {
+    height:72px Important !important;
   }
  
   }

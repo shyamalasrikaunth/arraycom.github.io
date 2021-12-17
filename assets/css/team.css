@@ -5,12 +5,13 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-position: center;
   color: white !important;
   height: 60vh;
   align-items: center;
   justify-content: center;
   display: flex;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
 }
 .bgteam h4 {
   background: rgba(0, 0, 0, 0.6);
@@ -199,11 +200,11 @@ button:not(:disabled) {
   }
   .bgteam
     {
-        height:40vh;
+        height:55vh;
         padding-top:40px;
     }
   .bgteam h4 {
-    font-size: 1.5rem !important;
+    font-size: 2.75rem !important;
     font-weight: 800 !important;
     background: rgba(133, 135, 137, 0.7);
 }
