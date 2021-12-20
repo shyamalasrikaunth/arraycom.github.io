@@ -4,6 +4,7 @@
 
   background: url("../images/pages/contact.png");
   background-repeat: no-repeat;
+ 
   background-size: cover;
   color: white !important;
   height: 60vh;
@@ -532,25 +533,21 @@
 }
 @media (max-width: 575px){
   .jumbotron {
-    padding-top: 78px !important;
+    padding-top: 120px !important;
   
-    background: url("../images/pages/contact.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    
     color: white !important;
-    height: 35vh;
-    filter: grayscale(80%);
+    height: 30vh;
+    background-position: center center;
+    
   }
-  .jumbotron h1 {
-    padding-top: 20px;
-    font-size: 20px;
-    text-align: center;
-  }
+  
   .jumbotron  h4{
-    font-size:1.75rem !important;
+    font-size:1rem !important;
     font-weight:800 !important;
+    text-align:center !important;
     background:rgba(133, 135, 137, 0.7);
-    text-align: center;
+     
   }
   .pt-5
   {
@@ -564,8 +561,9 @@
     height:30vh;
   }
   .jumbotron h4{
-    font-size:4.5rem !important;
+    font-size:3.5rem !important;
     text-align:center !important;
+    background:rgba(133, 135, 137, 0.7);
   }
   .rs-contact h3{
     font-size:2.75rem;

@@ -1,14 +1,60 @@
 .jumbotron {
-    padding-top: 120px;
+    padding-top: 180px;
   
     background: url("../images/pages/tfm-service.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: white !important;
-    height: 60vh;
-    filter: grayscale(70%);
+    background-position: center center;
+    height: 70vh;
+    /* filter: grayscale(70%); */
   }
   .jumbotron h1 {
     padding-top: 40px;
     font-size: 40px;
   }
+  @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .tfm-area .slick-slide img {
+  
+  height:200px !important;
+  
+}
+   
+    .tfm-area .slick-slider {
+  
+  height:200px !important;
+      
+}
+   .system-area .slick-slide img {
+     width:100%;
+   }
+   .jumbotron {
+     padding-top: 60px;
+   
+    
+     height: 30vh;
+      
+   }
+ }
+ @media (max-width: 575px){
+   .system-area .slick-slide img {
+     width:100%;
+   }
+   .jumbotron {
+     padding-top: 60px;
+   
+    
+     height: 30vh;
+      
+   }
+   .jumbotron h4
+   {
+     text-align: center;
+     margin-top:50px;
+     color:red;
+     font-size:20px;
+     background-color: rgba(255,255,255,0.7);
+   }
+   
+ }
+  
