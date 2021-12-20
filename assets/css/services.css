@@ -223,23 +223,45 @@ height:70px
    padding-left:10px;
   font-size:40px;
 }
+.service-icon img
+{
+width:60px !important;
+}
+ 
+.zindex
+{
+  z-index:1000;
+
+}
+.text-detail
+{
+  text-align: justify;display: inline-block;word-spacing: 5px; letter-spacing: 2px;
+}
 @media (max-width: 575px){
+  .text-detail
+  {
+    letter-spacing: 0px!important;
+    text-align: left;
+    font-size:11px;
+
+  }
+ 
   .services-header
   {
     height:80vh;
     background: url("../images/vertbanner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: center center; */
+    background-position: center center;  
   }
   .divtitle{
-    font-size:2.5em !important;
-    padding-top:10px;
-    margin-top:180px !important;
+    font-size:3em !important;
+    
+    margin-top:300px !important;
     font-weight:800 !important;
   }
   .text-detail h3 {
-    font-size: 1.2rem;
+    font-size: 0.75rem;
     font-weight: 700;
 }
   .content-holder
